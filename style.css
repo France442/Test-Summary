@@ -100,7 +100,6 @@
   
 .rea{
     display: inline-block;
-    margin: 0 0 0 0 ;
     padding:0 0 0 3%;
     width: 50%;
     color: hsl(0, 100%, 67%);
@@ -116,7 +115,6 @@
 
 .mem{
     display: inline-block;
-    margin: 0 0 0 0 ;
     padding:0 0 0 3%;
     width: 50%;
     color: hsl(39, 100%, 56%);
@@ -131,7 +129,6 @@
 
 .verb{
     display: inline-block;
-    margin: 0 0 0 0 ;
     padding:0 0 0 3%;
     width: 50%;
     color: hsl(166, 100%, 37%);
@@ -144,7 +141,7 @@
 }
 .vis{
     display: inline-block;
-    margin: 0 0 0 0 ;
+    margin:0;
     padding:0 0 0 3%;
     width: 50%;
     color: hsl(234, 85%, 45%);
