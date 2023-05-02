@@ -1,0 +1,237 @@
+    body{
+        font-family: 'Hanken Grotesk', sans-serif;
+        margin-top: 50px;
+        display: flex;
+        height: 500px;
+        min-height: 90vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #marks{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+        width: 40%;
+        height: 62%;
+        box-shadow: 10px 10px 5px hsl(221, 100%, 96%);
+    }
+
+    
+
+    .score{
+        height: 38%;
+        width: 50%;
+        background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsl(241, 81%, 54%));
+        border-radius: 100%;
+        margin: 7% auto 0 ;
+    }
+
+    .score-1{ 
+       margin: 0;
+       padding: 0;
+    }
+
+    .summary{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .tot{
+        font-size: 90%;
+        opacity: 30%;
+    }
+
+    .total{
+       opacity: 19%;
+    }
+
+    .summary h3{
+        margin: 10px 0 8px 20px;
+        font-size: 1.5rem;
+    }
+
+    h2{
+        margin:8% auto 5%;
+    }
+
+    h1{
+        padding-top: 30px;
+        font-size: 3rem;
+        margin: 0;
+    }
+
+.result{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 50%;
+    height: 100%;
+}
+
+.youre{
+    font-size: 1.2rem;
+    opacity: 50%;
+    padding: 15px 0;
+}
+.text{
+    text-align: center;
+    margin: auto;
+    opacity: 50%;
+    width: 74%;
+    font-size: 1rem;
+}
+.button{
+    margin: auto;
+ 
+}
+.reaction{
+    width: auto;
+    margin: 0 auto 15px;
+    border-radius: 8px;
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+  
+.rea{
+    display: inline-block;
+    margin: 0 0 0 0 ;
+    padding:0 0 0 3%;
+    width: 50%;
+    color: hsl(0, 100%, 67%);
+}
+
+
+.memory{
+    width: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.mem{
+    display: inline-block;
+    margin: 0 0 0 0 ;
+    padding:0 0 0 3%;
+    width: 50%;
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    width: auto;
+    margin: 15px auto;
+    border-radius: 8px;
+    background-color: hsla(166, 100%, 37%,0.1);
+}
+
+
+.verb{
+    display: inline-block;
+    margin: 0 0 0 0 ;
+    padding:0 0 0 3%;
+    width: 50%;
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    width: auto;
+    margin: 15px auto 0;
+    border-radius: 8px;
+    background-color: hsla(234, 85%, 45%,0.1);
+}
+.vis{
+    display: inline-block;
+    margin: 0 0 0 0 ;
+    padding:0 0 0 3%;
+    width: 50%;
+    color: hsl(234, 85%, 45%);
+}
+
+.subs{
+    margin: 0 auto;
+    align-items: center;
+    width: 90%;
+    height: 73%;
+}
+
+
+.pts{
+    padding-left: 16%;
+    display: inline-block;
+}
+
+
+.butt{
+    margin: 0 auto;
+}
+.myButton {
+    background-color:hsl(224, 30%, 27%);
+    border-radius:28px;
+    color: white;
+    display:inline-block;
+    cursor:pointer;
+    font-size:17px;
+    padding:10px 75px;
+    margin: 0 auto 0;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+
+@media screen and (max-width: 768px) {
+    #marks{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 50%;
+        height: 100%;
+        }
+
+    body{
+       margin: 0;
+       padding: 0;
+    }    
+    .result{
+        padding: 0 0 15px 0;
+        border-radius: 0 0 30px 30px;
+        width: 100%;
+        height: 49%;
+    }
+
+    .youre{
+        padding: 5px 0;
+    }
+    .summary{
+        width: auto;
+    }
+    
+    .score{
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    h2{
+        margin: 2px 0;
+    }
+
+    h1{
+        padding-top: 10px;
+    }
+
+    .text{
+        text-align: center;
+        width: 69%;
+        font-size: 0.9rem;
+    }
+
+    .summary h3{
+        margin: 8px 0 4px 20px;
+    }
+
+}
