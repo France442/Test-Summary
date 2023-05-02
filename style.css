@@ -159,7 +159,7 @@
 
 
 .pts{
-    padding-left: 16%;
+    padding-left: 10%;
     display: inline-block;
 }
 
@@ -184,17 +184,24 @@
 
 
 @media screen and (max-width: 768px) {
+    html{
+        width: auto;
+        height: auto;
+    }
     #marks{
+        padding: auto;
+        margin: auto;
         display: flex;
         flex-direction: column;
         border-radius: 10px;
-        width: fit-content;
+        width: 80%;
         height: 100%;
         }
 
     body{
-       margin: 0;
-       padding: 0;
+        width: auto;
+       margin: auto;
+       padding: auto;
     }    
     .result{
         padding: 0 0 15px 0;
@@ -232,6 +239,14 @@
 
     .summary h3{
         margin: 8px 0 4px 20px;
+    }
+
+    .butt{
+        margin: auto;
+    }
+    .pts{
+        padding-left: 20%;
+        display: inline-block;
     }
 
 }
